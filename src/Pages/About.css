@@ -1,0 +1,12 @@
+.about-icon{
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.team-card:hover .about-icon{
+    display: block;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+} 
